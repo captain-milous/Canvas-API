@@ -12,10 +12,15 @@ body {
 
 canvas {
 	border: 2px solid red;
-	height: body.innerHeight;
+	width: 100%;
 }
 
-header {
+button {
+	height: 25px;
+	min-width: 50px;
+}
+
+#header {
 	height: 50px;
 	display: flex;
 }
@@ -24,7 +29,7 @@ header > div {
 	border: 2px solid red;
 }
 
-footer {
+#footer {
 	height: 30px;
 	text-align: center;
 }
